@@ -8,3 +8,17 @@ AnagramFinder.prototype.findAnagrams = function (otherWords) {
 }
 
 module.exports = AnagramFinder;
+
+
+
+
+
+
+
+    // function lowerCaseAndSort(this.word) {
+    //   return this.word.toLowerCase().split(‘’).sort().join(‘’);
+    // }
+    // String.prototype.sortWord = lowerCaseAndSort;
+    // const AnagramFinder = function (word) {
+    //   this.word = word;
+    //   this.sortedWord = word.sortWord();

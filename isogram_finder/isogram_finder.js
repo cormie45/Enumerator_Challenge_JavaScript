@@ -1,9 +1,10 @@
 const IsogramFinder = function (word) {
-    this.word = word.split('');
+    this.word = word;
 }
 
 IsogramFinder.prototype.isIsogram = function () {
-    return this.word.every((letter, index) => this.word.indexOf(letter) === index);
+    let string = this.word.toLowerCase().split('');
+    return string.every((letter, index) => string.indexOf(letter) === index);
 }
 
 module.exports = IsogramFinder;
